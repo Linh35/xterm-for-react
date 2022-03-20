@@ -2,7 +2,6 @@
 	"name": "xterm-for-react",
 	"version": "1.0.2",
 	"description": "A React wrapper made for XTerm.js",
-	"main": "dist/bundle.js",
 	"types": "dist/src/index.d.ts",
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.config.js",
@@ -24,18 +23,12 @@
 			"eslint --ext=jsx,js,ts,tsx --fix src"
 		]
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/robert-harbison/xterm-for-react"
-	},
 	"keywords": [
 		"react",
 		"typescript",
 		"xterm.js",
 		"xterm"
 	],
-	"author": "Robert Harbison",
-	"license": "MIT",
 	"peerDependencies": {
 		"react": "17.x",
 		"react-dom": "17.x"
